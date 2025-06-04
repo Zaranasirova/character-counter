@@ -1,12 +1,35 @@
-# React + Vite
+# Character Counter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu layihə React.js ilə hazırlanmış sadə bir **Character Counter** tətbiqidir. İstifadəçi daxil etdiyi mətnin uzunluğunu (simvol sayını) real vaxtda sayaraq göstərir.
 
-Currently, two official plugins are available:
+## 🔍 Xüsusiyyətlər
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Canlı simvol sayımı
+- Maksimum simvol limiti təyin etmək imkanı
+- Sadə və intuitiv istifadəçi interfeysi
+- Mobil uyğun dizayn (responsive)
 
-## Expanding the ESLint configuration
+## 🚀 Texnologiyalar
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Layihədə istifadə olunan əsas texnologiyalar:
+
+- [React](https://reactjs.org/)
+- HTML, SCSS/CSS
+- JavaScript (ES6+)
+
+## ⬇️ Quraşdırma və İstifadə
+
+Terminalda aşağıdakı addımları izləyin:
+
+```bash
+# Repository-ni klonlayın
+git clone https://github.com/Zaranasirova/character-counter.git
+
+# Layihə qovluğuna keçin
+cd character-counter
+
+# Lazım olan paketləri quraşdırın
+npm install
+
+# Layihəni başlat
+npm run dev
