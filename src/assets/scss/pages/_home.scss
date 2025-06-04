@@ -1,0 +1,28 @@
+.home-section{
+    margin-top: 48px;
+    .home-wrapper{
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        .title{
+            width: 100%;
+            height: 128px;
+            display: flex;
+            justify-content: center;
+            @media(max-width:520px){
+                height: 80px;
+                
+            }
+            h1{
+                @include text-present-1;
+                width: 510px;
+                text-align: center;
+                color: var(--neutral-900);
+                @media(max-width:520px){
+                    @include text-present-mobile;
+                    
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+.letter-density {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 64px;
+  .letter-density-title {
+    @include text-present-2;
+    color: var(--neutral-900);
+  }
+  .analysis {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    .letter-analysis {
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      .letter,
+      .count {
+        @include text-present-4;
+        color: var(--neutral-900);
+      }
+      .letter{
+        width: 16px;
+      }
+      .count{
+        width: 87px;
+      }
+      .bar-container {
+        width: 100%;
+        height: 12px;
+        border-radius: var(--radius-full);
+        background-color: var(--neutral-100);
+        .bar-fill {
+          width: 40%;
+          background-color: var(--blue-400);
+          height: 12px;
+          border-radius: var(--radius-full);
+        }
+      }
+    }
+    p{
+        color: var(--neutral-600);
+    }
+  }
+
+  .see-more {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    cursor: pointer;
+    span {
+      @include text-present-3;
+      color: var(--neutral-900);
+    }
+    .see-more-icon {
+      transition: transform 0.3s ease;
+color: var(--neutral-200);
+      &.rotated {
+        transform: rotate(180deg);
+        display: flex;
+      }
+    }
+  }
+}

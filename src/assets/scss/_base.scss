@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  background-color: var(--neutral-0);
+}
+.container {
+  max-width: 990px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  @media (max-width: 1024px) {
+    padding-left: 32px;
+    padding-right: 16px;
+  }
+  @media (max-width: 767px) {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+:root {
+  --neutral-900: #12131a;
+  --neutral-800: #21222c;
+  --neutral-700: #2a2b37;
+  --neutral-600: #404254;
+  --neutral-200: #e4e4ef;
+  --neutral-100: #f2f2f7;
+  --neutral-0: #ffffff;
+  --blue-400: #d3a0fa;
+  --blue-500: #c27cf8;
+  --yellow-500: #ff9f00;
+  --orange-500: #fe8159;
+  --orange-800: #da3701;
+}
+
+:root[data-theme="dark"] {
+  
+  --neutral-0:#12131A;
+  --neutral-900:#F2F2F7;
+  --neutral-100:#2A2B37;
+  --neutral-200:#404254;
+  --neutral-700:#E4E4EF;
+}
+
+:root {
+  --spacing-0: 0px;
+  --spacing-025: 2px;
+  --spacing-050: 4px;
+  --spacing-075: 6px;
+  --spacing-100: 8px;
+  --spacing-150: 12px;
+  --spacing-200: 16px;
+  --spacing-250: 20px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+  --spacing-600: 48px;
+  --spacing-800: 64px;
+  --spacing-1000: 80px;
+  --radius-0: 0px;
+  --radius-4: 4px;
+  --radius-6: 6px;
+  --radius-8: 8px;
+  --radius-10: 10px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-20: 20px;
+  --radius-24: 24px;
+  --radius-full: 999px;
+}

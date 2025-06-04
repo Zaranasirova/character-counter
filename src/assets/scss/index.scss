@@ -1,0 +1,12 @@
+@import "./mixin";
+@import "./base";
+
+//componenets
+@import "./components/header.scss";
+@import "./components/lightDarkIcon.scss";
+@import "./components/textBox";
+@import "./components/textStats";
+@import "./components/letterDensity";
+
+//pages
+@import "./pages/home.scss";
